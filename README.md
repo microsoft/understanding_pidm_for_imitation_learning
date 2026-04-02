@@ -37,8 +37,8 @@ It is recommended to install the package with a virtual environment such as cond
 ```bash
     conda create -n pidm_imitation python=3.10
     conda activate pidm_imitation
-    git clone https://project-athens@dev.azure.com/project-athens/SmartReplay/_git/SmartReplay
-    cd SmartReplay
+    git clone https://github.com/microsoft/understanding_pidm_for_imitation_learning
+    cd understanding_pidm_for_imitation_learning
     pip install -e .
 ```
 
