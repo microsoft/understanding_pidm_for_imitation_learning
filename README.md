@@ -5,15 +5,17 @@ This codebase is accompanying the research paper ["When does predictive inverse 
 ## Citation
 
 If you use this code in your research, please cite the following paper:
-Schäfer, Lukas, Pallavi Choudhury, Abdelhak Lemkhenter, Chris Lovett, Somjit Nath, Luis França, Matheus Ribeiro Furtado de Mendonça et al. "When does predictive inverse dynamics outperform behavior cloning?." arXiv preprint arXiv:2601.21718 (2026).
+Schäfer, Lukas, Pallavi Choudhury, Abdelhak Lemkhenter, Chris Lovett, Somjit Nath, Luis França, Matheus Ribeiro Furtado de Mendonça, Alex Lamb, Riashat Islam, Siddhartha Sen, John Langford, Katja Hofmann, Sergio Valcarcel Macua "When does predictive inverse dynamics outperform behavior cloning?." In *International Conference on Machine Learning* (2026).
+
+
 
 In BibTeX format:
 
 ```bibtex
-@article{schafer2026pidm,
-  title={When does predictive inverse dynamics outperform behavior cloning?},
-  author={Sch{\"a}fer, Lukas and Choudhury, Pallavi and Lemkhenter, Abdelhak and Lovett, Chris and Nath, Somjit and Fran{\c{c}}a, Luis and de Mendon{\c{c}}a, Matheus Ribeiro Furtado and Lamb, Alex and Islam, Riashat and Sen, Siddhartha and others},
-  journal={arXiv preprint},
+@inproceedings{schafer2026pidm,
+  title={When Does Predictive Inverse Dynamics Outperform Behavior Cloning?},
+  author={Sch{\"a}fer, Lukas and Choudhury, Pallavi and Lemkhenter, Abdelhak and Lovett, Chris and Nath, Somjit and Fran{\c{c}}a, Luis and de Mendon{\c{c}}a, Matheus Ribeiro Furtado and Lamb, Alex and Islam, Riashat and Sen, Siddhartha and Langford, John and Hofmann, Katja and Valcarcel Macua, Sergio},
+  booktitle={International Conference on Machine Learning},
   year={2026}
 }
 ```
