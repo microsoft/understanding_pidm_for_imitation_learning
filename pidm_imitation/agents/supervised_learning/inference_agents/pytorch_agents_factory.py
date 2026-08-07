@@ -137,7 +137,10 @@ class PytorchAgentFactory:
         model.eval()
         model.to(device)
 
-        checkpoint = torch.load(checkpoint_file, map_location=device)
+        # Training checkpoints contain serialized model objects in their hyperparameters.
+        checkpoint = torch.load(
+            checkpoint_file, map_location=device, weights_only=False
+        )
         model_hparams = checkpoint.get("hyper_parameters", {})  # type: ignore
         datamodule_hparams = checkpoint.get("datamodule_hyper_parameters", {})  # type: ignore
 
