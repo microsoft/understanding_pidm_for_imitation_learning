@@ -20,7 +20,7 @@ dependencies = [
     "decord",
     "gymnasium",
     "jsonargparse[signatures]>=4.26.1",
-    "lightning==2.5.2",
+    "lightning==2.6.6",
     "matplotlib",
     "numpy<2.0.0",
     "opencv-python",
